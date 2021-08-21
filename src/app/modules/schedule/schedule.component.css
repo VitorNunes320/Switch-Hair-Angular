@@ -1,0 +1,7 @@
+.product-card {
+    min-height: 350px;
+    max-width: 350px;
+    background-image: linear-gradient(to top, #926DCF, #408cff);
+    color: #ffffff;
+    border-radius: 10px;
+  }

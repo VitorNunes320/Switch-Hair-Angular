@@ -1,0 +1,20 @@
+<app-title [titulo]="titulo"></app-title>
+<br>
+<mat-grid-list [cols]="colums" rowHeight="480px" [gutterSize]="'10px'">
+  <mat-grid-tile *ngFor="let product of products">
+    <mat-card class="product-card">
+      <mat-card-header>
+        <mat-card-title>{{ product.name }}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="{{ product.image }}" alt="Photo of a Shiba Inu">
+      <mat-card-content style="height: 80px;">
+        <p>
+          {{ product.description }}
+        </p>
+      </mat-card-content>
+      <mat-card-actions style="height: 40px;">
+        <button mat-raised-button color="primary">Agendar</button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

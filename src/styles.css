@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container {
+    padding: 5px 10% 5px 10% !important;
+}
+
+.mat-toolbar {
+    background-color: #55b1fd;
+    background-image: linear-gradient(to right, #926DCF, #55b1fd);
+    color: #ffffff;
+}
+
+.title-purple {
+    color: #926DCF;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
+.divider-purple {
+    background-color: #55b1fd;
+    background-image: linear-gradient(to right, #926DCF, #55b1fd);
+    height: 2px;
+}

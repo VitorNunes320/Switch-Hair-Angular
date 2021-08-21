@@ -1,0 +1,7 @@
+.example-card {
+  min-height: 350px;
+  max-width: 400px;
+  background-image: linear-gradient(to bottom, rgba(255,151,244,1) 0%, rgba(66,191,191,1) 45%, rgba(154,107,255,1) 100%);
+  color: #ffffff;
+  border-radius: 10px;
+}

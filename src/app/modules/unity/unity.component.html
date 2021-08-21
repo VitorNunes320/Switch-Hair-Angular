@@ -1,0 +1,17 @@
+<app-title [titulo]="titulo"></app-title>
+<br>
+<mat-grid-list [cols]="colums" rowHeight="400px" [gutterSize]="'10px'">
+  <mat-grid-tile *ngFor="let unity of units">
+    <mat-card class="unity-card">
+      <mat-card-header>
+        <mat-card-title>{{ unity.name }}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="{{ unity.image }}" alt="Photo of a Shiba Inu">
+      <mat-card-content style="height: 50px;">
+        <p>
+          {{ unity.adress }}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

@@ -1,0 +1,7 @@
+.unity-card {
+    min-height: 350px;
+    max-width: 400px;
+    background-image: linear-gradient(to bottom, rgba(201,194,255,1) 0%, rgba(88,190,255,1) 100%);
+    color: #ffffff;
+    border-radius: 10px;
+  }
